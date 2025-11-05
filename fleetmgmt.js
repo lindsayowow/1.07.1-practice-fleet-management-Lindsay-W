@@ -42,9 +42,9 @@ class Vehicle {
   // Add a method to display the details of the vehicle in a user-friendly format. 
     getDetails() {
         return (`
-\x1b[34mVehicle Type:\x1b[0m ${this.type} ${this.emoji}
-\x1b[34mYear, Make and Model:\x1b[0m ${this.year} ${this.make} ${this.model}
-\x1b[34mMileage:\x1b[0m ${this.mileage}`);
+\x1b[34m\u2022 Vehicle Type:\x1b[0m ${this.type} ${this.emoji}
+\x1b[34m\u2022 Year, Make and Model:\x1b[0m ${this.year} ${this.make} ${this.model}
+\x1b[34m\u2022 Mileage:\x1b[0m ${this.mileage}`);
     }
  }
 
